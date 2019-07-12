@@ -1,0 +1,247 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+body{
+	color: #ddd;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+.log-in-box {
+    width: 375px;
+    background: #fff;
+    box-shadow: 0 0 23px #eee;
+    border-radius: 8px;
+    float: left;
+}
+a.logo {
+    display: table;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 0 0 15px;
+}
+.log-in-box  form {
+    padding: 0 20px;
+    position: relative;
+}
+.log-in-box label {
+    display: table;
+    color: #111;
+    margin-bottom: 5px;
+}
+.log-in-box input:not([type="submit"]){
+    width: 310px;
+    border: none;
+    background: #eee;
+    padding: 12px;
+    color: #111;
+    margin: 0 0 15px;
+}
+.log-in-box select{
+width: 335px;
+    border: none;
+    background: #eee;
+    padding: 12px;
+    color: #111;
+    margin: 0 0 15px;
+}
+.log-in-box h3 {
+    text-align: center;
+    margin: 0 0 25px;
+    color: #111;
+}
+.log-in-box input[type="submit"] {
+    display: table;
+    margin: 0 auto 20px;
+    background: none;
+    border: 2px solid #019eed;
+    color: #019eed;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 9px 38px;
+}
+.log-in-box a.bix-mem {
+    display: table;
+    width: 100%;
+    text-align: center;
+    background: #019eed;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 0;
+}
+.log-in-box h2 {
+    text-align: center;
+    margin: 0 0 25px;
+    color: #111;
+}
+a.pay {
+    display: table;
+    margin: 0 auto 20px;
+    background: none;
+    border: 2px solid #019eed;
+    color: #019eed;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 9px 38px;
+    text-decoration: none;
+}
+
+
+.login-status{
+	width: 375px;
+    background: #fff;
+    box-shadow: 0 0 23px #eee;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.login-status img {
+    height: 50px;
+}
+.login-status h3 {
+    margin: 20px 0;
+    color: #111;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login-status a {
+    background: none;
+    border: 2px solid #019eed;
+    color: #019eed;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 9px 38px;
+    text-decoration: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.cvv-code {
+    width: 35%;
+    position: relative;
+    float: left;
+}
+.cvv-code input:not([type="submit"]) {
+    width: 79%;
+}
+.expy-date {
+    position: relative;
+    float: right;
+    width: 60%;
+}
+.expy-date input:not([type="submit"]) {
+       width: 34%;
+    position: relative;
+    float: left;
+    margin-right: 8px;
+}
+.expy-date input.year {
+    float: right;
+    margin: 0;
+}
+
+/*keya*/
+.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix.ui-draggable-handle {
+    background-color: #fff;
+    border: none;
+}
+#ui-id-1{
+	display: none;
+}
+.ui-widget.ui-widget-content {
+    transform: translate(-50%, -50%);
+    left: 50%!important;
+    top: 50%!important;
+    position: fixed!important;
+    width: 30%!important;    text-align: center;
+    border-bottom: 10px solid #25b7ac!important;
+    box-shadow: -1px 23px 104px #000;
+    z-index: 1;
+}   
+#cart-payment-beforelogin label{display: block;}
+#cart-payment-beforelogin input{ width: 100%;
+    padding: 7px;    margin-bottom: 16px;
+    font-size: 14px;}
+.expy-date input{    width: 47%!important;}
+input#card_payment_logout {
+       background: #25b7ac;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    top: 86%!important;
+}
+#card-wrap-withoutlogin input.error {
+    border: 2px solid red;
+}
+.place-order button.new_submit.button {
+    background: #25b7ac;
+    color: #fff;
+}
+#payment-unsuc img{
+    width: 15%;
+}
+a#payment-unsuc-ok {
+    background: #25b7ac;
+    padding: 6px 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+a#payment-suc-ok{ background: #25b7ac;
+    padding: 6px 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+#payment-suc img{
+    width: 15%;
+}
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+#loading-image {
+    position: absolute !important;
+    z-index: 9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    float: left!important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+ @media screen and (max-width:767px) {
+    .ui-widget.ui-widget-content {  width: 95%!important;}
+ }
